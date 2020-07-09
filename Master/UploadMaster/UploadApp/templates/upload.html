@@ -1,0 +1,27 @@
+ {% extends 'base.html'%}
+{% block content %}
+{% load static %}
+
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"></h3>
+        </div>
+        <div class="list-group" id="myDIV">
+          <a href="{% url 'UploadApp:basic_upload' %}" class="list-group-item basic ">
+            Basic Upload
+          </a><br>
+          <a href="{% url 'UploadApp:bulk_upload' %}" class="list-group-item bulk">
+            Bulk Upload
+          </a>
+        </div>
+      </div>
+    </div>
+<div class="col-6 mx-auto">
+  {% block upload_content %}
+  {% endblock %}
+</div>
+</div>
+ {% endblock %}

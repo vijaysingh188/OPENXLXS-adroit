@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da6205be-1344-40e8-9c36-71bb25b31b86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apache24/logs/access.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apache24/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apache24/logs/httpd.pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/AuthRequiredMiddleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/choices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0002_employeesheet_month.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0003_auto_20200219_1152.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0004_remove_employeesheet_month_calendar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0005_employeesheet_month_calendar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0006_employeesheet_sheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0007_auto_20200220_1641.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/0008_auto_20200226_1603.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/js/basic-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/js/drag-and-drop-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/js/progress-bar-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/static/table/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/add_employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/add_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/add_sheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/basic_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/bulk_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/edit_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/employee_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/project_wise_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/result_bulk_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/templates/user_wise_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadApp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadMaster/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadMaster/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadMaster/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadMaster/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/UploadMaster/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/mod_wsgi-4.7.0.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/xl/TimeSheet_Gayatri_Patil.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/xl/TimeSheet_Karan_Singh.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/xl/TimeSheet_Naresh_Humane.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/xl/TimeSheet_Supriya_kadam.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/xl/TimeSheet_Unnati_Patel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/xl/~$TimeSheet_Gayatri_Patil.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/xl/~$TimeSheet_Karan_Singh.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UploadMaster/~$TimeSheet_Gayatri_Patil.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_wsgi-4.7.1+ap24vc15-cp37-cp37m-win_amd64.whl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\vijay\Master\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XQ8IXfAYScyV6HvOPoErMz3nGl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,HTML5_OUTLINE_MODE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da6205be-1344-40e8-9c36-71bb25b31b86" name="Default Changelist" comment="" />
+      <created>1580966878274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580966878274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590531740400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590531740400" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UploadMaster/UploadApp/views.py</url>
+          <line>807</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UploadMaster/UploadMaster/urls.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UploadMaster/UploadApp/forms.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

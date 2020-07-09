@@ -1,0 +1,33 @@
+ {% extends 'base.html'%}
+{% block content %}
+{% load static %}
+  <script>
+  $(document).ready(function(){
+    $('#id_file').attr("multiple","true");
+
+  })
+ </script>
+
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"></h3>
+        </div>
+        <div class="list-group" id="myDIV">
+          <a href="{% url 'UploadApp:project_wise_report' %}" class="list-group-item">
+            Project-Wise Report
+          </a><br>
+          <a href="{% url 'UploadApp:user_wise_report' %}" class="list-group-item">
+            User-Wise Report
+          </a>
+        </div>
+      </div>
+    </div>
+<div class="col-6 mx-auto">
+  {% block upload_content %}
+  {% endblock %}
+</div>
+</div>
+ {% endblock %}

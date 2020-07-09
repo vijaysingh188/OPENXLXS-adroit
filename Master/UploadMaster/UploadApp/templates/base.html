@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css" integrity="sha256-b88RdwbRJEzRx95nCuuva+hO5ExvXXnpX+78h8DjyOE=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.js" integrity="sha256-/7FLTdzP6CfC1VBAj/rsp3Rinuuu9leMRGd354hvk0k=" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>EDP</title>
+
+
+    </head>
+    <header>
+  <h4 class="page-header bg-dark text-white p-2">
+    LOGO
+    <a href="{% url 'UploadApp:home' %}">Home</a>
+             {% if request.user.is_authenticated %}
+      <a href="{% url 'UploadApp:basic_upload' %}">Upload Data</a>
+      <a href="{%url 'UploadApp:logout' %}" class="float-right"><i class="fa fa-sign-out"></i></a>
+      {% endif %}
+  </h4>
+    </header>
+    <div class="p-2">
+    <strong> {% block title %}{% endblock %}</strong>
+    </div>
+<body>
+  <div class="row">
+    <div class="container col-md-8">
+        {% block content %}{% endblock %}
+    </div>
+  </div>
+
+  <script>
+         {% if messages %}
+         <!-- Hide Messages in Django after some time -->
+         var message_django = document.getElementById("message_container");
+         message_django.className = "show_message";
+
+          setTimeout(function(){
+             message_django.className = message_django.className.replace("show_message", "");
+          }, 3000);
+        {% endif %}
+  </script>
+
+<footer style="position:fixed; bottom:0; width: 100%;">
+    <div class="text-center bg-dark text-white p-2">
+                    <span id="footerend">&copy;2020 |  All Rights Reserved </span>
+    </div>
+</footer>
+</body>
+</html>

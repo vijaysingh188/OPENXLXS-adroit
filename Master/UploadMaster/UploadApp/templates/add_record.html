@@ -1,0 +1,32 @@
+{%extends 'base.html' %}
+
+{% block title %}
+Add Record
+{% endblock %}
+
+{% block content %}
+
+<form autocomplete="off"  method="POST" enctype="multipart/form-data" id="form-id">
+    {% csrf_token %}
+    <table style="display:table;" class="table-responsive">
+                    <tbody>
+                    <tr>
+                       <td style="padding:5px; width:50%" valign="top">
+                          {{form}}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+    <br>
+    <button type="submit">SUBMIT</button>
+
+</form>
+<script>
+  $(function () {
+    $("#id_date").datepicker({
+      format:'yyyy-mm-dd',
+    });
+  });
+</script>
+{% endblock %}

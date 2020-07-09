@@ -1,0 +1,23 @@
+{% extends 'upload.html'%}
+{% block upload_content %}
+{% load static %}
+<div class="col-9">
+    <form action="{% url 'UploadApp:basic_upload' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{form}}
+        <br><br>
+
+         <input style="background-color:#dbd313; color:blue" class="btn btn-outline-info" type="submit" value="Upload" />
+    </form>
+        {% if project_wise_report %}
+
+        <div>
+            <label>Project Wise Report:</label>{{project_wise_report}} hrs
+            <label>Total Month spent:</label>{{Total_time_spent}} hrs
+        </div>
+        {% endif %}
+        <div id="message_container">
+            {% include 'message.html' %}
+        </div>
+</div>
+{% endblock %}

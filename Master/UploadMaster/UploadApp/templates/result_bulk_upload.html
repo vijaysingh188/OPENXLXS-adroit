@@ -1,0 +1,20 @@
+{% extends 'upload.html'%}
+{% block upload_content %}
+{% load static %}
+
+        {% if project_wise_report %}
+
+        <div>
+            <label>Project Wise Report:</label>{{project_wise_report}} hrs
+            <br>
+            <label>Total Time Spent in Month:</label>{{Total_time_spent}} hrs
+            <br>
+            <label>Employee name:</label>{{Employee_Name}}
+            <br>
+            <label>Month Sheet:</label>{{sheet}}
+        </div>
+        {% endif %}
+        <div id="message_container">
+            {% include 'message.html' %}
+        </div>
+{% endblock %}
